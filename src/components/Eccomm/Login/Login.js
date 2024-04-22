@@ -49,7 +49,7 @@ function Login() {
         <div class="shape"></div>
       </div>
       <form>
-        <h3>Do Login!</h3>
+        <h3> Login!</h3>
 
         <label for="username">Email</label>
         <input
