@@ -1,0 +1,45 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4e4e4;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+ul li:hover {
+  background-color: blanchedalmond;
+}
+ul li del {
+  padding: 8px 0px;
+}
+
+ul li i {
+  width: 10px;
+  margin-right: 20px;
+}
+h5 {
+  margin: 0;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.done {
+  color: green;
+}
+
+.delete {
+  color: red;
+}
+.done:hover,
+.delete:hover {
+  transform: scale(0.9);
+}
